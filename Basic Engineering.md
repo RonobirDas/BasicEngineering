@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<title>Fundamentals of Engineering</title>
-
-<xmp theme="cyborg" style="display:none;">
 # Basic Engineering 
 Hi there! Welcome to my page on the basics of engineering, my way. 
 Here I attempt to teach you about this fascinating world. 
@@ -13,7 +8,7 @@ on a the webpage such as this.
 
 Note: Any views or opinions presented in this website and its subsites are solely those of the author and do not necessarily represent those of the University of Nevada, Las Vegas and its employees nor the various institutions listed here. I gain nothing from your use of this site. So now I can say that your mileage may vary, I hold no responsibility or guarantee anything on this site or this site itself helping you in your courses or in life. Please proceed with this in mind. I am not liable or culpable in regards to you finding utility in this site. 
 
-Credit: This website was designed using a Markdown Editor from [Dillinger](http://dillinger.io), themeing and styling from [StrapdownJS](http://strapdownjs.com/), and finally editing using Brackets from Adobe. Additionally, credit goes to Dr. J. Baker of UNLV for the inspiration to create this site in the same spirit as his fantastic site dedicated to help all students in IC Design. [I highly recommend you visit](http://www.cmosedu.com), Paul Dawkins of Lamar University who is the creator of [Paul's Online Math Notes](http://tutorial.math.lamar.edu/terms.aspx) and finally [PatrickJMT](http://patrickjmt.com/about/).
+Credit: This website was designed using a Markdown Editor from [Dillinger](http://dillinger.io). Additionally, credit goes to Dr. J. Baker of UNLV for the inspiration to create this site in the same spirit as his fantastic site dedicated to help all students in IC Design. [I highly recommend you visit](http://www.cmosedu.com)
 
 ## FAQ
 >What do you intend to teach? 
@@ -30,15 +25,11 @@ I like to teach. I never said I'm very good at it, but I'd like it.
 
 >Who are you, or why should we trust you? 
 
-Like I said earlier, I am in no way saying I'm an expert in anything. I'm a student, and not a really intelligent one nor really that hardworking. This is actually to your benefit. I am not some great engineer who can postulate for hours on a particular design. *I AM* however a pretty basic person, and so my philosphy is if I can do it, then really anyone can. At least that's my hope. 
+Like I said earlier, I am in no way saying I'm an expert in anything. I'm a student, and not a really intelligent one nor really that hardworking. This is actually to your benefit. I am not some great engineering who can postulate for hours on a particular design. I AM however a pretty basic person, and so my philosphy is if I can do it, than really anyone can. At least that's my hope. 
 
 >This site's design if fairly bland. Is that on purpose? 
 
-It's part my laziness and part [taking inspiration from this](https://justinjackson.ca/words.html). My primary site is actually design focused. 
-This however is content focused and as such I've had prior success in using Markdown. 
-There are no frills, just content with a focused site like this. It is responsive. It is simple to design. It is not excessive. 
-If I had to make some kind of fizzywhosiewhatsit type of site for every single page, this would never get off the ground. 
-The focus would shift away from teaching and more on design. 
+It's part my laziness and part [taking inspiration from this](https://justinjackson.ca/words.html). My primary site is actually design focused. This however is content focused and as such I've had prior success in using Markdown. There are no frills, just content with a focused site like this. It is responsive. It is simple to design. It is not excessive. If I had to make some kind of fizzywhosiewhatsit type of site for every single page, this would never get off the ground. The focus would shift away from teaching and more on design. 
 
 Now with that out of the way, let's continue. 
 
@@ -94,7 +85,3 @@ Now with that out of the way, let's continue.
 - Linkedin: [My Resume](https://www.linkedin.com/in/ronobirdas)
 - Contact Email: mookherj@unlv.nevada.edu & dasronobir@gmail.com
 
-</xmp>
-
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-</html>
