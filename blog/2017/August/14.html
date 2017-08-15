@@ -13,17 +13,17 @@
 ## About those VFDs...
 ---
 
-I've been looking into those really awesome older display technologies for what seems like forever. I've always wanted to get a Nixie tube clock, or well to design one more than anything. But I think what draws my attention the most are VFD displays. I mean they seem to charge a pretty penny for a newer one, but old tube displays from the many tube stores are fairly cheap. I'd like to build a dB meter and general segmented display using VFD tubes, let's see if I ever get around to it. 
- 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/clUVEyi_YNM' frameborder='0' allowfullscreen></iframe></div>   
+I've been looking into those really awesome older display technologies for what seems like forever. I've always wanted to get a Nixie tube clock, or well to design one more than anything. But I think what draws my attention the most are VFD displays. I mean they seem to charge a pretty penny for a newer one, but old tube displays from the many tube stores are fairly cheap. I'd like to build a dB meter and general segmented display using VFD tubes, let's see if I ever get around to it.
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/clUVEyi_YNM' frameborder='0' allowfullscreen></iframe></div>
 
 ## Cheap FPGAs
 ---
 
-Recently thought of getting a cheaper FPGA setup. I have an Artix 7 from Digilent that allows for breadboard usage, and an Arrow SoCKit which I love, but is grossly overkill for most projects outside of architecture ones. I'd like a simple and cheap setup but with more ALMs or LUTs than what lattice is offering. That and I'm too comfortable with Intel/Altera's setup to really move to something else. Ideally, it being a nonBGA design would be ideal. For price/performance I've found that the Cyclone IV E family to be a good price between $12 for 6k and $35 for 22k. The Cyclone 10 LP is also decent at 25k and much more recent. However the best bang for buck would be the Cyclone V family, where in I can get a consistent ratio of around 700 - 850 LEs/$. The best deal is a 300k LE Cyclone V for <$250, giving you around 1450 LEs/$. The lower priced Cyclone IV are great for one off designs since they are not BGA based. The MAX10 at under $10 with 8k would technically be the best, but it's BGA package kills it's otherwise great specs for one off projects. 
+Recently thought of getting a cheaper FPGA setup. I have an Artix 7 from Digilent that allows for breadboard usage, and an Arrow SoCKit which I love, but is grossly overkill for most projects outside of architecture ones. I'd like a simple and cheap setup but with more ALMs or LUTs than what lattice is offering. That and I'm too comfortable with Intel/Altera's setup to really move to something else. Ideally, it being a nonBGA design would be ideal. For price/performance I've found that the Cyclone IV E family to be a good price between $12 for 6k and $35 for 22k. The Cyclone 10 LP is also decent at 25k and much more recent. However the best bang for buck would be the Cyclone V family, where in I can get a consistent ratio of around 700 - 850 LEs/$. The best deal is a 300k LE Cyclone V for <$250, giving you around 1450 LEs/$. The lower priced Cyclone IV are great for one off designs since they are not BGA based. The MAX10 at under $10 with 8k would technically be the best, but it's BGA package kills it's otherwise great specs for one off projects.
 
 | FPGA        | LEs           | Price  |  LE/$   |  Package   |
-| ------------- |:-------------:| -----:| --- | --- | 
+| ------------- |:-------------:| -----:| --- | --- |
 |   [Cyclone IV E EP4CE6E22C8N](https://www.digikey.com/product-detail/en/altera/EP4CE6E22C8N/544-2746-ND/2288251)   | 6272 | $12 |  522  | `TQFP 144` |
 |   [Cyclone IV E EP4CE22E22C8N](https://www.digikey.com/product-detail/en/altera/EP4CE22E22C8N/544-3193-ND/2288353)   | 22320 | $35.52 |  628  | `TQFP 144` |
 |   [Cyclone 10 LP 10CL025YU256I7G](https://www.digikey.com/product-detail/en/altera/EP4CE6E22C8N/544-2746-ND/2288251)   | 24624 | $26.25 |  928  | 256-UBGA |
@@ -32,12 +32,12 @@ Recently thought of getting a cheaper FPGA setup. I have an Artix 7 from Digilen
 |   [Cyclone V E 5CEBA7F23C8N](https://www.digikey.com/product-detail/en/altera/EP4CE6E22C8N/544-2746-ND/2288251)   | 149500 | $159.36 |  938  | 484-FBGA |
 |   [Cyclone V E 5CEBA9F23C8N](https://www.digikey.com/product-detail/en/altera/5CEBA9F23C8N/544-3281-ND/3879650)   | 301000 | $209.76 |  `1433`  | 484-FBGA |
 
-Obviously this discounts things like speed grade, DSP slices, embedded memory. I mean this looks purely at it from an LE persepctive. 
+Obviously this discounts things like speed grade, DSP slices, embedded memory. I mean this looks purely at it from an LE persepctive.
 
 ## Speaking of FPGAs
 ---
 
-Ever find yourself looking for a small SOM, but don't want or need a full development board, don't need any fancy appended microprocessors and just want a small SOM? Well as luck would have it there are quite a few retailers but usually the prices are exorbitant. AND THEY NEVER GIVE ANY DRAM. Well usually. 
+Ever find yourself looking for a small SOM, but don't want or need a full development board? Don't need any fancy appended microprocessors and a gaggle of inputs or a fizzywidget buffet? Well as luck would have it there are quite a few retailers but usually the prices are exorbitant. AND THEY NEVER GIVE ANY DRAM. Well usually. 
 
 I found [Trenz Electronics](https://shop.trenz-electronic.de/en/TE0713-01-200-2C-FPGA-Module-with-Xilinx-Artix-7-XC7A200T-2FBG484C-4-x-5-cm-1-GByte-DDR3L) & [Numato Labs to be fairly good](https://numato.com/neso-artix-7-fpga-development-board/)
 
