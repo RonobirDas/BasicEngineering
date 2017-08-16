@@ -4,35 +4,35 @@
 
 
 <xmp theme="Readable" style="display:none;">
-# [Basic Engineering](index.html) 
+# [Basic Engineering](index.html)
 --------------
 
 # Prototyping Methods
 
-So there are a few ways to do proper circuit prototyping preboard design. I'm a big fan of first doing almost a hand layout, *then* moving onto a board layout. 
-But for designs higher than propabaly a few MHz, low noise applications or high power, you run the risk of poor or nill circuit performance on a breadboard. 
+So there are a few ways to do proper circuit prototyping preboard design. I'm a big fan of first doing almost a hand layout, *then* moving onto a board layout.
+But for designs higher than propabaly a few MHz, low noise applications or high power, you run the risk of poor or nill circuit performance on a breadboard.
 
 [Actually just read StackExchange](https://electronics.stackexchange.com/questions/2103/when-to-avoid-using-a-breadboard)
 
-Whaddya do? 
+Whaddya do?
 
 Well the RF guys have known about this for a long time. But I'm sure for the past two decades the digital guys have too.
 
-The answer is obvious. Copper. Copper is your friend, your good buddy, your pal. 
+The answer is obvious. Copper. Copper is your friend, your good buddy, your pal.
 
-I can suggest a pretty easy way to "simulate" a 4 layer board (PWR, GND, S1, S2). 
+I can suggest a pretty easy way to "simulate" a 4 layer board (PWR, GND, S1, S2).
 
-Get a (2) dual layer copper clad boards, or copper sheets + perf/vectorboard of your choice also dual layer. Make a "via" to Ground and Power. 
+Get a (2) dual layer copper clad boards, or copper sheets + perf/vectorboard of your choice also dual layer. Make a "via" to Ground and Power.
 Obviously there are a lot of issues with matching, but those exist in PCBs as well. And this isn't going to help you for your fancy spectrum analyzer
-using some ultrasensitive ADC to measure VHF waves, but it'll probably help extend a breadboards few MHz limitation into the 10's of MHz, and probably 100's of MHz with proper filtering and matching techniques. Remeber, the more Tx Line theory and passive microwave theory you understand, the more capable of a prototype you'll be able to get. 
+using some ultrasensitive ADC to measure VHF waves, but it'll probably help extend a breadboards few MHz limitation into the 10's of MHz, and probably 100's of MHz with proper filtering and matching techniques. Remeber, the more Tx Line theory and passive microwave theory you understand, the more capable of a prototype you'll be able to get.
 
-[Here Dave from EEVBlog talks about the all important breadboard capacitance](https://www.eevblog.com/2014/01/15/eevblog-568-solderless-breadboard-capacitance/)
-Remember, we have to characterize breadboards now which kinda sucks imo. 
+[Here Dave from EEVBlog talks about the all important breadboard capacitance](https://www.eevblog.com/2014/01/15/eevblog-568-solderless-breadboard-capacitance/).
+Remember, we have to characterize breadboards now which kinda sucks imo.
 
 [Well what about those gosh dang SMD components?](https://electronics.stackexchange.com/questions/174082/making-prototypes-with-high-speed-smd-components)
 
 Speaking of, I wonder if they meant you have to move on to [this](https://www.riogrande.com/Product/1420-yellow-gold-filled-double-clad-sheet-14-ga-12-hard/107459)
-Yeesh, but maybe performance is so amazing, it justifies the cost. 
+Yeesh, but maybe performance is so amazing, it justifies the cost.
 
 Here's some typical prototyping techniques from a cursory googling:
 
@@ -49,13 +49,13 @@ And what I imagine is the highest performance possible for prototyping, Manhatta
 - [Really great guide](http://www.aoc.nrao.edu/~pharden/hobby/HG-MANHAT2.pdf)
 - [More info](http://www.unixnut.net/files/manart.pdf)
 
-Finally, what would I recommend for prototyping? Get ready to plunk down some cash cash money money. 
+Finally, what would I recommend for prototyping? Get ready to plunk down some cash cash money money.
 
 - [BusBoard](http://www.busboard.com/PAD2)
-    A dual layer, plated pad per hole 1oz copper perfboard. Need I say more? 
+    A dual layer, plated pad per hole 1oz copper perfboard. Need I say more?
 - [Copper Sheet Metal](https://www.amazon.com/Copper-Sheet-Metal-12/dp/B00AKMNNX4)
-- [Copper Clad Board](https://www.amazon.com/Copper-PC-Board-Double-Sided/dp/B000Q8TZXE/ref=pd_lpo_vtph_60_tr_t_2?_encoding=UTF8&psc=1&refRID=VE2S8T6MN5Q28GJFQ6YX)   
-- [Nibbler Tool](https://www.amazon.com/ProsKit-900-215-Nibbler/dp/B000BN60XW/ref=sr_1_3?s=industrial&ie=UTF8&qid=1502753960&sr=1-3&keywords=nibbler+tool)    
+- [Copper Clad Board](https://www.amazon.com/Copper-PC-Board-Double-Sided/dp/B000Q8TZXE/ref=pd_lpo_vtph_60_tr_t_2?_encoding=UTF8&psc=1&refRID=VE2S8T6MN5Q28GJFQ6YX)
+- [Nibbler Tool](https://www.amazon.com/ProsKit-900-215-Nibbler/dp/B000BN60XW/ref=sr_1_3?s=industrial&ie=UTF8&qid=1502753960&sr=1-3&keywords=nibbler+tool)
 
 </xmp>
 
